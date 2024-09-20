@@ -2,11 +2,21 @@
 
 int main()
 {
-    //Вариант 5 (Объём прямоугольного параллелепипеда)
-    int A, B, C;
-    std::cin >> A >> B >> C;
+    //Вариант 8
+    int A;
+    std::cin >> A;
+    std::cout << "V = " << A*A*A << std::endl;
 
-    std::cout << "Var5: V = " << A*B*C << std::endl;
+    // //Вариант 10
+    // float N, X;
+    // std::cin >> N >> X;
+    // std::cout << pow(X, 1/N) << std::endl;
+    
+    // //Вариант 5 (Объём прямоугольного параллелепипеда)
+    // int A, B, C;
+    // std::cin >> A >> B >> C;
+
+    // std::cout << "Var5: V = " << A*B*C << std::endl;
 
     // //Вариант 1
     // int p = (A+B+C)/2;
