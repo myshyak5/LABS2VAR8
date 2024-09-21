@@ -3,9 +3,9 @@
 int main()
 {
     //Вариант 8
-    int A;
+    unsigned short A;
     std::cin >> A;
-    std::cout << "V = " << A*A*A << std::endl;
+    std::cout << "V = " << pow(A, 3) << std::endl;
 
     // //Вариант 10
     // float N, X;
