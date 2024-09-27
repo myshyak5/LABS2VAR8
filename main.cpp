@@ -34,4 +34,6 @@ int main()
     // std::cin >> A1 >> B1;
 
     // std::cout << "Var2: S = " << A1 * B1 / 2 << std::endl;
+
+    return 0;
 }
